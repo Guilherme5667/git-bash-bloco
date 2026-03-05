@@ -1,0 +1,49 @@
+ cd desktop
+mkdir -p devtech
+- cd devtech
+
+- mkdir -p projetos/site-institucional/src/css
+
+- mkdir -p projetos/site-institucional/src/js
+
+- mkdir -p projetos/site-institucional/src/img
+
+- mkdir -p projetos/site-institucional/public
+
+- mkdir -p projetos/sistema-interno/backend/src/controllers
+
+- mkdir -p projetos/sistema-interno/backend/src/models
+
+- mkdir -p projetos/sistema-interno/backend/src/routes
+
+- mkdir -p projetos/sistema-interno/frontend/src/components
+
+- mkdir -p projetos/sistema-interno/frontend/src/pages
+
+- mkdir -p projetos/sistema-interno/frontend/src/services
+
+- touch projetos/site-institucional/public/index.html
+
+- touch projetos/site-institucional/README.md
+
+- touch projetos/sistema-interno/backend/server.js
+
+- touch projetos/sistema-interno/frontend/index.html
+
+- mkdir -p financeiro/2025
+- touch financeiro/2025/janeiro.txt
+- touch financeiro/2025/fevereiro.txt
+- touch financeiro/2025/marco.txt
+- touch financeiro/relatorio-anual.txt
+- mkdir -p docs/contratos
+- mkdir -p docs/manuais
+- echo "<h1>Bem-vindo ao site da DevTech Solutions</h1>" > projetos/site-institucional/public/index.html
+- echo "Projeto do site institucional da DevTech Solutions." > projetos/site-institucional/README.md
+- echo "console.log('Servidor Backend DevTech iniciado');" > projetos/sistema-interno/backend/server.js
+- echo "<h1>Sistema Interno DevTech</h1>" > projetos/sistema-interno/frontend/index.html
+- echo "Relatório financeiro anual da DevTech Solutions." > financeiro/relatorio-anual.txt
+- echo "Lista de funcionários da DevTech Solutions." > RH/funcionarios.txt
+bash: RH/funcionarios.txt: No such file or directory
+- cp -r projetos/site-institucional docs/manuais/
+- echo "Estrutura da empresa DevTech Solutions criada com sucesso!"
+Estrutura da empresa DevTech Solutions criada com sucesso!
